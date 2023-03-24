@@ -4,7 +4,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='aiocqhttp-mod',
+    name='aiocqhttp',
     version='1.4.3',
     url='https://github.com/nonebot/aiocqhttp',
     license='MIT License',
