@@ -611,6 +611,7 @@ class CQHttp(AsyncApi):
             payload.pop('raw_message', None)
             payload.pop('comment', None)
             payload.pop('sender', None)
+            payload.pop('message_seq', None)
             try:
                 await self._api.call_action(
                     self_id=payload['self_id'],
